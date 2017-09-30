@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Puzzel</title>
+	<link rel="stylesheet" type="text/css" href="default.css">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body onkeydown="userInput(event)">
+
+	<table id="puzzle-matrix" >
+		<tr>
+			<td id="img-1"></td>
+			<td id="img-2"></td>
+			<td id="img-3"></td>
+		</tr>
+		<tr>
+			<td id="img-4"></td>
+			<td id="img-5"></td>
+			<td id="img-6"></td>
+		</tr>
+		<tr>
+			<td id="img-7"></td>
+			<td id="img-8"></td>
+			<td id="img-9"></td>
+		</tr>		
+	</table>
+
+    <script type="text/javascript">
+        //Driver Function
+        var puzzleMatrix = document.getElementById("puzzle-matrix");
+        var posX, posY;
+        randomArrange();
+        scanner();
+        
+    </script>
+</body>
+</html>
+
+
+

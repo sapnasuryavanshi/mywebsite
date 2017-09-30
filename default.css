@@ -1,0 +1,91 @@
+body {
+	background-color: rgb(0,0,38);
+}
+#puzzle-matrix {
+	margin: auto;
+	margin-top: 100px;
+}
+#puzzle-matrix td {
+	height: 267px;
+	width: 267px;
+	color: white;
+	text-align: center;
+	background-repeat: no-repeat;
+	
+	background-position: contain;
+	box-shadow: 0 0 50px black;
+	opacity: 0.5;
+
+
+}
+nav{
+	background-color: green;
+	padding: 10px;
+	
+}
+
+li{
+	display: inline-block;
+	list-style: none;
+	height: 30px;
+	color: white;
+	font-size: 30px;
+}
+
+#img-9 {
+	background-image: url('1.jpg');	
+}
+
+#img-8 {
+	background-image: url('2.jpg');	
+}
+
+#img-7 {
+	background-image: url('3.jpg');	
+}
+
+#img-6 {
+	background-image: url('4.jpg');	
+}
+
+#img-5 {
+	background-image: url('5.jpg');	
+}
+
+#img-4 {
+	background-image: url('6.jpg');	
+}
+
+#img-3 {
+	background-image: url('7.jpg');	
+}
+
+#img-2 {
+	background-image: url('8.jpg');	
+}
+#img-1 {
+	background-color: white;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
